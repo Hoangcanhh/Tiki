@@ -1,0 +1,31 @@
+/* Preview */
+.preview_itemImg--isChoose, .preview_itemImg--notChoose {
+    width: 50px;
+    height: fit-content;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 8px;
+}
+.preview_itemImg--isChoose {
+    outline: 2px solid rgb(22, 112, 255); 
+}
+.preview_itemImg--notChoose, .preview_img {
+    outline: 1px solid rgb(235, 235, 240);
+}
+.preview_itemImg--isChoose:hover, .preview_itemImg--notChoose:hover {
+    cursor: pointer;
+}
+
+/* Information */
+.infoAttribute {
+    border-top: 1px solid rgb(235, 235, 240);
+}
+.infoAttribute:nth-of-type(1) {
+    border: none;
+}
+
+/* Order */
+.orderFewer {
+    outline-width: 1px;
+    outline-style: solid;
+}

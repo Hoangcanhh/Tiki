@@ -1,0 +1,32 @@
+.checkCol {
+    flex-basis: 5%;
+}
+.allCol {
+    flex-basis: 45%;
+}
+.priceCol {
+    flex-basis: 15%;
+}
+.quantityCol {
+    flex-basis: 15%;
+}
+.allPriceCol {
+    flex-basis: 15%;
+}
+.delCol {
+    flex-basis: 5%;
+}
+.delCol svg {
+    width: 18px;
+    height: 18px;
+    fill: rgb(120, 120, 120);
+}
+.shipTo input {
+    outline: 1px solid rgb(221, 221, 227);
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+.bill p {
+    color: rgb(134, 134, 143);
+}
